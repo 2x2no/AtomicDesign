@@ -1,0 +1,40 @@
+.media {
+    $block: &;
+
+    display: flex;
+    padding: 10px;
+
+    &__imageBox {
+        width: 200px;
+    }
+    &__textBox {
+        margin-left: 10px;
+        flex: 1;
+    }
+    &__title {
+        font-size: 20px;
+    }
+    &__info {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &__date {
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    &__category {
+        font-size: 14px;
+    }
+
+    &--large {
+        &__imageBox {
+            width: 300px;
+            margin-right: 10px;
+        }
+        &__textBox {
+            flex: 1;
+        }
+        &__title {}
+        &__info {}
+    }
+}
