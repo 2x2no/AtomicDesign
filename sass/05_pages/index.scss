@@ -1,7 +1,14 @@
 @import "sass/reset";
+@import "sass/01_atoms/a-title";
 @import "sass/02_molecules/m-media";
 @import "sass/03_organisms/o-mediaList";
 
-.wrap {
-    padding: 0 10px;
+.p-index {
+    padding: 50px 10px 0;
+    width: 1200px;
+    margin: 0 auto;
+
+    &__container {
+        margin-top: 30px;
+    }
 }

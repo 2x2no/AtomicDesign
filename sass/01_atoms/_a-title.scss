@@ -1,0 +1,10 @@
+.a-title {
+    &--page {
+        font-size: 35px;
+        line-height: 1.2;
+        font-weight: bold;
+        border-bottom: solid 2px #333;
+        color: #333;
+        padding: 0 10px 5px;
+    }
+}
