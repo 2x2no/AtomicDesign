@@ -2,6 +2,7 @@
 @import "sass/01_atoms/a-title";
 @import "sass/02_molecules/m-media";
 @import "sass/03_organisms/o-mediaList";
+@import "sass/04_templates/t-mediaListBlock";
 
 .p-index {
     padding: 50px 10px 0;
@@ -9,6 +10,7 @@
     margin: 0 auto;
 
     &__container {
-        margin-top: 30px;
+        margin-top: 35px;
+        padding: 0 20px;
     }
 }
